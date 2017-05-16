@@ -22,7 +22,7 @@ public class Game extends Canvas implements Runnable {
 		Game;
 	}
 	
-	public STATE gameState = STATE.Game;
+	public STATE gameState = STATE.Menu;
 	
 	public Game(){
 		new Window(WIDTH, HEIGHT, "Game Window", this);
